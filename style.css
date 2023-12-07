@@ -1,0 +1,85 @@
+.container  {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(3, 129, 154);
+}
+
+.calculator {
+    width: 400px;
+    height: 600px;
+    background-color: #c2bebee2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.calculator .display {
+    width: 90%;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.calculator .deleteAndClear {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.calculator .deleteAndClear button {
+    width: 45%;
+    height: 100%;
+    background-color: orange;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.calculator .deleteAndClear button:hover {
+    background-color: #ab3d3d;
+}
+
+.calculator .row {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.calculator .row button {
+    width: 23%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border: none;
+    outline: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.calculator .row button:hover {
+    background-color: #a6f5da;
+}
+
+
